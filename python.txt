@@ -1,36 +1,19 @@
 python reserved words
 
 # if
-
-ex.
-
-x=5
-if x<10:
-	print 'smaller'
-if x>20:
-	print 'bigger'
-	
+#elif
+#else
 # while
-
-ex. 
-
-x=5
-while n>0:
-	print n
-	n=n-1
-
 # and
 # del
 # for
 # is
 # raise
 # assert
-#elif
 #from
 #lambda
 #return
 #break
-#else
 #global
 #or
 #continue
@@ -46,6 +29,10 @@ while n>0:
 # ** = power
 # % = remainder
 # + = add or concatenate (if string)
+# <= less than or equal to
+# >= greater than or equal to
+# == equal to
+# != not equal to
 
 # ' ' or " " will make a variable a string (even if numerical)
 
@@ -55,31 +42,4 @@ while n>0:
 
 # raw_input program will pause and request user input (stored as a string)
 
-ex. 
-
-name=raw_input('Please enter name')
-print 'welcome',name
-
-example code
-
-#Get file name and open it
-name = raw_input('file name')
-handle = open(name."r")
-text = handle.read()
-words = text.split()
-
-#counts word frequency
-counts = dict()
-for word in words:
-	counts[word] = counts.get(word.0)+1
-
-#finds the most common word
-bigcount = none
-bigword = none
-for word.counts in counts.items():
-	if bigcount is none or count > bigcount:
-		bigword = word
-		bigcount = count
-		
-print bigword.bigcount
 
