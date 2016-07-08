@@ -1,0 +1,85 @@
+python reserved words
+
+# if
+
+ex.
+
+x=5
+if x<10:
+	print 'smaller'
+if x>20:
+	print 'bigger'
+	
+# while
+
+ex. 
+
+x=5
+while n>0:
+	print n
+	n=n-1
+
+# and
+# del
+# for
+# is
+# raise
+# assert
+#elif
+#from
+#lambda
+#return
+#break
+#else
+#global
+#or
+#continue
+#exec
+#import
+#pass
+#yield
+#def
+#finally
+#in
+#print
+
+# ** = power
+# % = remainder
+# + = add or concatenate (if string)
+
+# ' ' or " " will make a variable a string (even if numerical)
+
+# type() = will identify an object (string, integer, float (with a decimal), etc.)
+
+# float() & int() convert number or string to float or integer
+
+# raw_input program will pause and request user input (stored as a string)
+
+ex. 
+
+name=raw_input('Please enter name')
+print 'welcome',name
+
+example code
+
+#Get file name and open it
+name = raw_input('file name')
+handle = open(name."r")
+text = handle.read()
+words = text.split()
+
+#counts word frequency
+counts = dict()
+for word in words:
+	counts[word] = counts.get(word.0)+1
+
+#finds the most common word
+bigcount = none
+bigword = none
+for word.counts in counts.items():
+	if bigcount is none or count > bigcount:
+		bigword = word
+		bigcount = count
+		
+print bigword.bigcount
+
