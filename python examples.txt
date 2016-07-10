@@ -53,3 +53,36 @@ elif #question:
 	#action
 else #question:
 	#action
+	
+#
+
+def myFunction():
+    print 'I am now printing from myFunction :D'
+
+print 'I am printing from the main body of code'
+myFunction()
+
+# Output
+I am printing from the main body of code
+I am now printing from myFunction :D
+
+#
+
+def area(length, depth):
+	a=length*depth
+	print a
+
+area(7, 8)
+#output
+56
+
+#
+
+def area(length, depth):
+	a=length*depth
+	return a
+	
+print area(7, 8)
+
+#output
+56

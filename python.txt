@@ -42,4 +42,8 @@ python reserved words
 
 # raw_input program will pause and request user input (stored as a string)
 
+# def functionname():
+	code goes here, must be intented
+	
+# return needed to be included in def'd function for any variables derived inside function to be kept. Returned variable placed on line where function was called.
 
