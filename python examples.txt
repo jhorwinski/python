@@ -86,3 +86,45 @@ print area(7, 8)
 
 #output
 56
+
+#
+
+while True:
+    line=raw_input('input')
+    if line == 'done':
+        break
+    print line
+print 'done'
+
+#
+
+try:
+    num = float(num)
+except:
+    print "Invalid input"
+        continue
+        
+#
+
+ma=None
+mi=None
+while True:
+    x=raw_input("integer")
+    if x=='done':
+        break
+    try:
+    	x=int(x)
+    except:
+        print 'Invalid input'
+        continue
+    if ma==None:
+        ma=x
+    if mi==None:
+        mi=x
+    if ma<x:
+        ma=x
+    if mi>x:
+    	mi=x
+            
+print 'Maximum is',ma
+print 'Minimum is',mi

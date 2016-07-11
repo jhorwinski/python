@@ -1,15 +1,15 @@
 python reserved words
 
-# if
+#if
 #elif
 #else
-# while
-# and
-# del
-# for
-# is
-# raise
-# assert
+#while
+#and
+#del
+#for
+#is
+#raise
+#assert
 #from
 #lambda
 #return
@@ -46,4 +46,24 @@ python reserved words
 	code goes here, must be intented
 	
 # return needed to be included in def'd function for any variables derived inside function to be kept. Returned variable placed on line where function was called.
+
+#while initiates a loop that will continue as long as the following argument is true
+
+#while True will result in indefinite loop
+
+#break will cause exit from loop without completing code that follows in the same loop
+
+#continue will cause a loop start from the beginning without completed the rest of the loop for that cycle
+
+#for x in y will result in a loop iterating through y (list, dictionary, whatever) until it reaches the end
+
+#None will act as a stand in for an empty variable (i.e. x=None will result in the variable x w/o a value for instances where you need the variable to exist before assigning a value)
+
+#try and except allow the program to attempt something that will posibly throw an error. If an error is encountered the except action is used
+
+#Ctrl C will terminate a python program
+
+#Ctrl X will pause a python program (even sometimes when Ctrl C does not apear to work)
+
+
 
