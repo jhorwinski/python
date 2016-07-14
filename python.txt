@@ -65,5 +65,11 @@ python reserved words
 
 #Ctrl X will pause a python program (even sometimes when Ctrl C does not apear to work)
 
+dir()
 
+len()
+
+for ... in ...:
+
+in
 
